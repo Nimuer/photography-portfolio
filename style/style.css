@@ -28,6 +28,10 @@ h3 {
   font-weight: 400;
   line-height: 1.88;
 }
+.bg-dark {
+  background: var(--bg-color);
+  color: var(--text-color-main);
+}
 .hero {
   background: var(--bg-color);
   text-align: center;

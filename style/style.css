@@ -1,0 +1,61 @@
+:root {
+  --bg-color: #0e190e;
+  --text-color-main: #fff;
+  --text-color-secondary: #000;
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-secondary: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: var(--bg-color);
+}
+h1 {
+  font-family: var(--font-family-main);
+  font-size: 72px;
+  line-height: 1.16;
+}
+h2 {
+  font-family: var(--font-family-secondary);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: var(--font-family-main);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.88;
+}
+.hero {
+  background: var(--bg-color);
+  text-align: center;
+  color: var(--text-color-main);
+  padding: 160px 30px;
+  background-image: url(../img/bg-img.jpg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.btn-custom {
+  padding: 18px 30px;
+  border-radius: 50px;
+  border: 2px solid #ffff;
+  background: transparent;
+  color: var(--text-color-main);
+  font-family: var(--font-family-secondary);
+  text-transform: uppercase;
+}
+.btn-custom:hover {
+  border: 2px solid #000;
+  background: #ffff;
+  color: #000;
+}
+.name,
+.main-header {
+  margin-bottom: 25px;
+}
+.description-area {
+  margin-bottom: 48px;
+}

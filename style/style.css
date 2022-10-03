@@ -5,9 +5,9 @@
   --font-family-main: "Roboto", sans-serif;
   --font-family-secondary: "Montserrat", sans-serif;
   --footer-bg-color: #282323;
+  --header-color-accent: #f65282;
 }
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   background: var(--bg-color);
 }
@@ -31,6 +31,7 @@ h3 {
 }
 footer {
   height: 100px;
+  background-color: var(--footer-bg-color);
 }
 .navbar {
   height: 100px;
@@ -128,4 +129,26 @@ footer {
   .navbar {
     height: 60px;
   }
+}
+/* ---------------------About me style */
+.hero-header {
+  color: var(--header-color-accent);
+  font-size: 18px;
+  font-family: var(--font-family-main);
+}
+.hero-img {
+  width: 700px;
+}
+.main-name-hero {
+  font-family: var(--font-family-main);
+  font-size: 64px;
+  color: var(--text-color-main);
+}
+.hero-description {
+  font-size: 18px;
+  color: var(--text-color-main);
+  line-height: 1.66;
+}
+.camera-small-example {
+  width: 70px;
 }

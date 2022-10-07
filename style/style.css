@@ -224,4 +224,5 @@ footer {
 }
 .contact-container {
   margin-bottom: 146px;
+  min-height: calc(100vh - 380px);
 }

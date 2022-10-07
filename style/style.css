@@ -152,3 +152,10 @@ footer {
 .camera-small-example {
   width: 70px;
 }
+.main-header-gallery {
+  font-size: 72px;
+  line-height: 1.16;
+  color: var(--text-color-main);
+  margin-bottom: 116px;
+  margin-top: 32px;
+}
